@@ -1,0 +1,62 @@
+version: "3.0"
+rules:
+
+- rule: responder saudação
+  steps:
+    - intent: saudacao
+    - action: utter_saudacao
+
+- rule: responder despedida
+  steps:
+    - intent: despedida
+    - action: utter_despedida
+
+- rule: responder agradecimento
+  steps:
+    - intent: agradecimento
+    - action: utter_agradecimento
+
+- rule: responder pedido de ajuda
+  steps:
+    - intent: pedir_ajuda
+    - action: utter_pedir_ajuda
+
+- rule: responder pergunta sobre horário
+  steps:
+    - intent: perguntar_horario
+    - action: utter_perguntar_horario
+
+- rule: responder pergunta sobre data
+  steps:
+    - intent: perguntar_data
+    - action: utter_perguntar_data
+
+- rule: responder pedido de informação sobre o chatbot
+  steps:
+    - intent: pedir_informacao
+    - action: utter_pedir_informacao
+
+- rule: responder elogio
+  steps:
+    - intent: elogio
+    - action: utter_elogio
+
+- rule: responder confirmação
+  steps:
+    - intent: confirmar
+    - action: utter_confirmar
+
+- rule: responder negação
+  steps:
+    - intent: negar
+    - action: utter_negar
+
+- rule: responder pergunta sobre nome
+  steps:
+    - intent: perguntar_nome
+    - action: utter_perguntar_nome
+
+- rule: responder pergunta sobre idade
+  steps:
+    - intent: perguntar_idade
+    - action: utter_perguntar_idade

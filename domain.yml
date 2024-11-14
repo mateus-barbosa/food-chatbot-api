@@ -1,0 +1,73 @@
+version: "3.0"
+intents:
+  - saudacao
+  - despedida
+  - agradecimento
+  - pedir_ajuda
+  - perguntar_horario
+  - perguntar_data
+  - pedir_informacao
+  - elogio
+  - confirmar
+  - negar
+  - perguntar_nome
+  - perguntar_idade
+
+responses:
+  utter_saudacao:
+    - text: "Olá! Como posso ajudar?"
+    - text: "Oi! Em que posso ser útil hoje?"
+    - text: "Oi! Tudo bem? Precisa de alguma ajuda?"
+
+  utter_despedida:
+    - text: "Até logo! Volte sempre!"
+    - text: "Tchau! Foi um prazer conversar com você!"
+    - text: "Até a próxima! Cuide-se!"
+
+  utter_agradecimento:
+    - text: "De nada! Estou aqui para ajudar."
+    - text: "Não há de quê! Sempre à disposição."
+    - text: "Por nada! Qualquer coisa, é só chamar."
+
+  utter_pedir_ajuda:
+    - text: "Claro! Estou aqui para te ajudar. O que você precisa?"
+    - text: "Pode contar comigo! Como posso te auxiliar?"
+    - text: "Estou pronto para ajudar! Me diga como posso ser útil."
+
+  utter_perguntar_horario:
+    - text: "Infelizmente, eu não posso te dizer a hora exata, mas posso te ajudar com outras informações!"
+    - text: "Desculpe, eu não tenho acesso ao horário no momento."
+
+  utter_perguntar_data:
+    - text: "Hoje é [incluir data aqui]. Precisa de mais alguma informação?"
+    - text: "A data de hoje é [incluir data aqui]. Posso ajudar com mais alguma coisa?"
+
+  utter_pedir_informacao:
+    - text: "Sou um chatbot criado para responder suas perguntas e ajudar com informações."
+    - text: "Fui criado para ajudar usuários a encontrar informações rapidamente e responder dúvidas."
+    - text: "Estou aqui para tornar suas interações mais rápidas e responder suas perguntas."
+
+  utter_elogio:
+    - text: "Muito obrigado! Fico feliz em ajudar!"
+    - text: "Agradeço o elogio! Estou aqui para isso."
+    - text: "Que bom que gostou! Qualquer coisa, estou à disposição."
+
+  utter_confirmar:
+    - text: "Ótimo! Vamos seguir com isso."
+    - text: "Perfeito! Continuando então."
+    - text: "Certo, entendido."
+
+  utter_negar:
+    - text: "Tudo bem, sem problemas!"
+    - text: "Ok, posso ajudar com outra coisa então?"
+    - text: "Combinado! Caso precise de algo, estou por aqui."
+
+  utter_perguntar_nome:
+    - text: "Eu sou seu assistente virtual! Pode me chamar de Chatbot."
+    - text: "Meu nome é Chatbot, e estou aqui para ajudar você!"
+    - text: "Pode me chamar de Chatbot! Estou à disposição para ajudar."
+
+  utter_perguntar_idade:
+    - text: "Eu sou atemporal! Fui criado para ser útil, não importa o tempo."
+    - text: "Idade? Digamos que eu sou bem experiente!"
+    - text: "Eu não tenho uma idade específica, mas estou sempre aprendendo coisas novas para ajudar você."

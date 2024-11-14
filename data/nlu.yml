@@ -1,0 +1,120 @@
+version: "3.0"
+nlu:
+- intent: saudacao
+  examples: |
+    - Olá
+    - Oi
+    - Bom dia
+    - Boa tarde
+    - Boa noite
+    - E aí?
+    - Como vai?
+    - Como você está?
+    - Tudo bem?
+
+- intent: despedida
+  examples: |
+    - Tchau
+    - Até logo
+    - Até mais
+    - Adeus
+    - Fica bem
+    - Até a próxima
+    - Volto depois
+    - Falou
+
+- intent: agradecimento
+  examples: |
+    - Obrigado
+    - Obrigada
+    - Valeu
+    - Muito obrigado
+    - Muito obrigada
+    - Agradeço a ajuda
+    - Grato
+    - Foi de grande ajuda
+    - Agradeço
+
+- intent: pedir_ajuda
+  examples: |
+    - Pode me ajudar?
+    - Preciso de ajuda
+    - Me dá uma mão?
+    - Você pode me dar uma informação?
+    - Como funciona isso?
+    - Preciso de orientação
+    - Me explique, por favor
+
+- intent: perguntar_horario
+  examples: |
+    - Que horas são?
+    - Você sabe me dizer o horário?
+    - Pode me informar a hora?
+    - Qual o horário atual?
+    - Me diz que horas são
+    - Que hora é?
+
+- intent: perguntar_data
+  examples: |
+    - Qual é a data de hoje?
+    - Que dia é hoje?
+    - Você sabe me dizer a data de hoje?
+    - Qual o dia atual?
+    - Pode me dizer o dia?
+
+- intent: pedir_informacao
+  examples: |
+    - Você pode me dar informações?
+    - Quero saber mais sobre o chatbot
+    - Como você funciona?
+    - Para que você serve?
+    - O que você faz?
+    - Como posso te usar?
+
+- intent: elogio
+  examples: |
+    - Você é ótimo!
+    - Que legal!
+    - Muito bom o seu trabalho
+    - Que interessante!
+    - Parabéns!
+    - Você ajuda bastante
+    - Incrível!
+    - Adorei
+
+- intent: confirmar
+  examples: |
+    - Sim
+    - Claro
+    - Com certeza
+    - Isso mesmo
+    - Exatamente
+    - Tá bom
+    - Beleza
+    - Positivo
+
+- intent: negar
+  examples: |
+    - Não
+    - Acho que não
+    - Não quero
+    - Não é isso
+    - Negativo
+    - Nada disso
+    - Prefiro que não
+
+- intent: perguntar_nome
+  examples: |
+    - Qual é o seu nome?
+    - Como você se chama?
+    - Quem é você?
+    - Você tem nome?
+    - Como devo te chamar?
+
+- intent: perguntar_idade
+  examples: |
+    - Quantos anos você tem?
+    - Qual é a sua idade?
+    - Você é novo?
+    - Faz quanto tempo que você existe?
+    - Quando você foi criado?

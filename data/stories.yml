@@ -1,0 +1,50 @@
+version: "3.0"
+stories:
+
+- story: saudacao e despedida
+  steps:
+    - intent: saudacao
+    - action: utter_saudacao
+    - intent: despedida
+    - action: utter_despedida
+
+- story: saudacao, pedir ajuda e despedida
+  steps:
+    - intent: saudacao
+    - action: utter_saudacao
+    - intent: pedir_ajuda
+    - action: utter_pedir_ajuda
+    - intent: despedida
+    - action: utter_despedida
+
+- story: agradecimento apos ajuda
+  steps:
+    - intent: pedir_ajuda
+    - action: utter_pedir_ajuda
+    - intent: agradecimento
+    - action: utter_agradecimento
+
+- story: usuario pergunta nome e idade
+  steps:
+    - intent: perguntar_nome
+    - action: utter_perguntar_nome
+    - intent: perguntar_idade
+    - action: utter_perguntar_idade
+
+- story: elogio e despedida
+  steps:
+    - intent: elogio
+    - action: utter_elogio
+    - intent: despedida
+    - action: utter_despedida
+
+- story: saudacao, pedir informacao, agradecimento e despedida
+  steps:
+    - intent: saudacao
+    - action: utter_saudacao
+    - intent: pedir_informacao
+    - action: utter_pedir_informacao
+    - intent: agradecimento
+    - action: utter_agradecimento
+    - intent: despedida
+    - action: utter_despedida
