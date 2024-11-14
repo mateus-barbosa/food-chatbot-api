@@ -25,3 +25,19 @@
 #         dispatcher.utter_message(text="Hello World!")
 #
 #         return []
+
+# actions/actions.py
+from typing import Any, Text, Dict, List
+from rasa_sdk import Action, Tracker
+from rasa_sdk.executor import CollectingDispatcher
+
+class ActionInformacao(Action):
+    def name(self) -> Text:
+        return "action_informacao"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(text="Sou um chatbot criado para fornecer informações.")
+        return []
