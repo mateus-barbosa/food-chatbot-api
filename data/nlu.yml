@@ -118,3 +118,10 @@ nlu:
     - Você é novo?
     - Faz quanto tempo que você existe?
     - Quando você foi criado?
+
+- intent: perguntar_proteina
+  examples: |
+    - Quantas gramas de proteina eu tenho que ingerir?
+    - Qual o alimento com mais proteina que tem?
+    - Qual a proteina mais barata?
+    

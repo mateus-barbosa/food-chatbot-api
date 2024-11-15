@@ -12,6 +12,7 @@ intents:
   - negar
   - perguntar_nome
   - perguntar_idade
+  - perguntar_proteina
 
 responses:
   utter_saudacao:
@@ -71,3 +72,7 @@ responses:
     - text: "Eu sou atemporal! Fui criado para ser útil, não importa o tempo."
     - text: "Idade? Digamos que eu sou bem experiente!"
     - text: "Eu não tenho uma idade específica, mas estou sempre aprendendo coisas novas para ajudar você."
+
+  utter_perguntar_proteina:
+    - text: "A proteina mais barata é o Ovo, podendo ser comprado em grandes quantidades. "
+    - text: "BIRRR"
