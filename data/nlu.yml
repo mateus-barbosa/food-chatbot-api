@@ -119,9 +119,63 @@ nlu:
     - Faz quanto tempo que você existe?
     - Quando você foi criado?
 
-- intent: perguntar_proteina
+#Ganho de Massa - Perguntas genéricas
+- intent: ovo_cru
   examples: |
-    - Quantas gramas de proteina eu tenho que ingerir?
-    - Qual o alimento com mais proteina que tem?
-    - Qual a proteina mais barata?
+    - Comer ovo cru ajuda no ganho de massa?
+  
+- intent: melhor_alimento_ganho_massa
+  examples: |
+  - Qual o melhor alimento para ganho de massa?
+  
+- intent: proteinas_hipertrofia
+  examples: |
+    - Quais proteínas ajudam na hipertrofia?
     
+- intent: oque_comer_antes_treino
+  examples: |
+    - O que comer antes do treino para ganhar musculos?
+
+- intent: bons_suplementos_ganho_massa
+  examples: |
+  - Quais suplemnentos são bons para ganho de massa?
+
+#Perda de peso
+- intent: emagracer_rapido
+  examples: |
+    - Qual a melhor forma para emagrecer rápido?
+
+- intent: alimentos_ajudam_emagrecer
+  examples: |
+    - Quais alimentos ajudam a emagrecer?
+
+- intent: evitar_para_perder_peso
+  examples: |
+    - O que evitar para perder peso rapidamente?
+
+- intent: comer_noite_engorda
+  examples: |
+    - Comer à noite engorda?
+
+- intent: alimento_termogenicos
+  examples: |
+    - Quais alimentos são termogênicos?
+
+- intent: pao_para_emagracer
+  examples: | 
+    - Posso comer pão se quiser emagrecer?
+
+- intetn: alimentos_saudaveis
+  examples: |
+    - Quais são os alimentos mais saudáveis?
+    - Como planejar uma dieta saudável para o dia a dia?
+    - Quais alimentos são ricos em vitaminas e minerais?
+    - Como substituir o açúcar  no dia a dia?
+    - Qual a diferença entre gordura boa e ruim?
+
+- intent: dieta_especifica
+  examples: |
+    - O que é a dieta cetogênica?
+    - Quais alimentos são permitidos na dieta vegana?
+    - Existe uma dieta para quem tem diabetes?
+    - O que incluir em uma dieta vegetariana para ganhar musculos?
