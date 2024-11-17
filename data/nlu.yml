@@ -198,23 +198,33 @@ nlu:
   examples: |
     - Qual a diferença entre gordura boa e ruim?
     - Qual a diferença de gordura?
+    - Diferença entre gordura boa e ruim
 
 - intent: alimentos_mais_saudaveis
   examples: |
     - Quais são os alimentos mais saudáveis?
+    - Quais os alimentos mais saudáveis?
+    - Me fale os alimentos que são mais saudáveis
+    - Melhores alimentos para a saúde
 
 - intent: planejar_dieta
   examples: |
     - Como planejar uma dieta saudável para o dia a dia?
+    - Como montar uma boa dieta para o dia a dia?
+    - Como montar uma boa dieta?
 
 - intent: alimentos_mais_ricos_vitaminas
   examples: |
     - Quais alimentos são ricos em vitaminas e minerais?
+    - Quais alimentos são bastante ricos em vitaminas?
+    - Que alimentos são mais nutritivos para mim?
+    - Alimentos mais nutritivos
 
 - intent: trocar_acucar
   examples: |
-    - Como substituir o açúcar  no dia a dia?
-    
+    - Como substituir o açúcar no dia a dia?
+    - Qual seria um substituto para o açúcar?
+    - Pelo que posso trocar o açúcar na minha dieta?
 
 #Dieta específica
 - intent: dieta_cetogenica

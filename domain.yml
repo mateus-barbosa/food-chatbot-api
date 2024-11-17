@@ -94,7 +94,6 @@ responses:
     - text: "Os mais indicados são whey protein, creatina, BCAA e caseína, dependendo das suas necessidades e rotina de treinos."
     - text: "Os suplementos mais indicados para um público geral serão o whey protein e a creatina, por poderem ser utilizados em todos os níveis de treino, desde de o mais iniciante até o mais avançados."
     - text: "O melhor whey é o da GROWTH! Único whey de 1Kg do mercado!"
-    - text: "BIRRR"
 
   utter_proteinas_hipertrofia:
     - text: "Proteínas de alta qualidade, como as presentes no frango, peixe, ovos, leite e suplementos como whey protein, são excelentes para promover a hipertrofia."    
@@ -105,7 +104,6 @@ responses:
     - text: "Ovo cru pode trazer riscos à saúde por contaminação. Cozido ou preparado adequadamente, ele oferece proteínas de qualidade para hipertrofia."
     - text: "Não só não ajuda, como piora."
     - text: "Não, além de não trazer benefícios notáveis, ainda pode de dar salmonella."
-    - text: "BIRRR"
 
   #Perda de peso - respostas
   utter_emagrecer_rapido:

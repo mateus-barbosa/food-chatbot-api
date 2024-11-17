@@ -85,3 +85,33 @@ rules:
   steps:
     - intent: bons_suplementos_ganho_massa
     - action: utter_bons_suplementos_ganho_massa
+
+- rule: responder pergunta sobre emagrecer rapidamente
+  steps: 
+    - intent: emagrecer_rapido
+    - action: utter_emagrecer_rapido
+
+- rule: responder pergunta sobre alimentos que ajudam emagrecer
+  steps:
+    - intent: alimentos_ajudam_emagrecer
+    - action: utter_alimentos_ajudam_emagrecer
+
+- rule: responder pergunta sobre o que evitar para perder peso
+  steps:
+    - intent: evitar_para_perder_peso
+    - action: utter_evitar_para_perder_peso
+
+- rule: responder pergunta sobre se comer a noite engorda
+  steps: 
+    - intent: comer_noite_engorda
+    - action: utter_comer_noite_engorda
+
+- rule: responder pergunta sobre alimentos termogenicos
+  steps:
+    - intent: alimento_termogenicos
+    - action: utter_alimento_termogenicos
+
+- rule: responder pergunta sobre pao para emagrecer
+  steps:
+    - intent: pao_para_emagrecer
+    - action: utter_pao_para_emagrecer

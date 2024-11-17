@@ -61,3 +61,18 @@ stories:
     - action: utter_oque_comer_antes_treino
     - intent: bons_suplementos_ganho_massa
     - action: utter_bons_suplementos_ganho_massa
+
+- story: responder sobre perda de peso
+  steps:
+    - intent: emagrecer_rapido
+    - action: utter_emagrecer_rapido
+    - intent: alimentos_ajudam_emagrecer
+    - action: utter_alimentos_ajudam_emagrecer
+    - intent: evitar_para_perder_peso
+    - action: utter_evitar_para_perder_peso
+    - intent: comer_noite_engorda
+    - action: utter_comer_noite_engorda
+    - intent: alimento_termogenicos
+    - action: utter_alimento_termogenicos
+    - intent: pao_para_emagrecer
+    - action: utter_pao_para_emagrecer
