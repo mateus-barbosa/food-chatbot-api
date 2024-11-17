@@ -226,19 +226,38 @@ nlu:
     - Qual seria um substituto para o açúcar?
     - Pelo que posso trocar o açúcar na minha dieta?
 
-#Dieta específica
-- intent: dieta_cetogenica
+#Nutrição esportiva
+- intent: melhor_suplemento
   examples: |
-    - O que é a dieta cetogênica?
+    - Qual o melhor suplemento para ganho de massa?
+    - Qual o melhor suplemento para crescer?
+    - Que suplemento tenho que tomar para melhorar meu ganho de massa?
+    - Suplemento para ganho de massa.
 
-- intent: dieta_vegana
+- intent: tomar_whey_todo_dia
   examples: |
-    - Quais alimentos são permitidos na dieta vegana?
+    - Posso tomar whey protein todos os dias?
+    - Tomar whey todo dia é permitido?
+    - Whey todo dia faz mal?
 
-- intent: dieta_para_diabetes
+- intent: creatina_faz_mal
   examples: |
-    - Existe uma dieta para quem tem diabetes?
+    - Tomar creatina faz mal?
+    - A creatina faz mal?
+    - Creatina tem efeitos colaterais?
 
-- intent: dieta_vegetariana_musculos
+- intent: quando_tomar_bcaa
   examples: |
-    - O que incluir em uma dieta vegetariana para ganhar musculos?
+    - Quando tomar BCAA durante o treino?
+    - Quando consumir BCAA?
+    - Quando tenho que tomar o BCAA?
+    - Que horas posso consumir BCAA?
+
+
+#só por que sim
+- intent: birrr
+  examples: |
+    - birrr?
+    - birrr
+    - bir
+    - birrru

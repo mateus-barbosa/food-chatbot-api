@@ -117,3 +117,55 @@ rules:
   steps:
     - intent: pao_para_emagrecer
     - action: utter_pao_para_emagrecer
+
+#Alimentos saudáveis
+- rule: responder sobre a diferença entre gorduras
+  steps:
+    - intent: diferenca_gordura
+    - action: utter_diferenca_gordura
+    
+- rule: responder pergunta sobre os alimentos mais saudáveis
+  steps:
+    - intent: alimentos_mais_saudaveis
+    - action: utter_alimentos_mais_saudaveis
+
+- rule: responder pergunta sobre como planejar dietas
+  steps:
+    - intent: planejar_dieta
+    - action: utter_planejar_dieta
+
+- rule: responder pergunta sobre os alimentos mais ricos em vitaminas
+  steps:
+    - intent: alimentos_mais_ricos_vitaminas
+    - action: utter_alimentos_mais_ricos_vitaminas
+
+- rule: responder pergunta sobre trocar açúcar
+  steps:
+    - intent: trocar_acucar
+    - action: utter_trocar_acucar
+
+#Suplementação
+- rule: responder sobre os melhores suplementos
+  steps:
+    - intent: melhor_suplemento
+    - action: utter_melhor_suplemento
+    
+- rule: responder sobre tomar whey todo dia
+  steps:
+    - intent: tomar_whey_todo_dia
+    - action: utter_tomar_whey_todo_dia
+
+- rule: responder sobre creatina fazer mal
+  steps:
+    - intent: creatina_faz_mal
+    - action: utter_creatina_faz_mal
+
+- rule: responder sobre bcaa
+  steps:
+    - intent: quando_tomar_bcaa
+    - action: utter_quando_tomar_bcaa
+
+- rule: responder sobre birrr
+  steps:
+    - intent: birrr
+    - action: utter_birrr

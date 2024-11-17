@@ -18,6 +18,21 @@ intents:
   - proteinas_hipertrofia
   - oque_comer_antes_treino
   - bons_suplementos_ganho_massa
+  - emagrecer_rapido
+  - alimentos_ajudam_emagrecer
+  - evitar_para_perder_peso
+  - comer_noite_engorda
+  - alimento_termogenicos
+  - pao_para_emagrecer
+  - diferenca_gordura
+  - alimentos_mais_saudaveis
+  - planejar_dieta
+  - alimentos_mais_ricos_vitaminas
+  - trocar_acucar
+  - melhor_suplemento
+  - tomar_whey_todo_dia
+  - creatina_faz_mal
+  - quando_tomar_bcaa
 
 responses:
   utter_saudacao:
@@ -135,3 +150,55 @@ responses:
     - text: "Sim, mas prefira versões integrais e consuma com moderação."
     - text: "Sim, mas deve ingerir na quantidade certa, sem ultrapassar seu consumo de calorias!"
     - text: "BIRRR"
+
+  #Alimentos saudáveis - respostas
+  utter_alimentos_mais_saudaveis:
+    - text: "Legumes, frutas, grãos integrais e proteinas magras, como frango e peixe, são alimentos saudáveis e nutritivos."
+    - text: "Frutas e legumes são indispensáveis na seleção de alimentos saudáveis, e para proteinas, teremmos o frango e o peixe como ótimas opções!"
+
+  utter_diferenca_gordura:
+    - text: "Gorduras boas, como azeite e abacate, trazem benefícios à saúde. Gorduras ruins, presentes em frituras e alimentos ultraprocessados, devem ser evitadas."
+    - text: "Gorduras boas são aquelas que trazem benefícios à saúde, enquanto as gorduras ruins não."
+    - text: "Gorduras boas são as insaturadas, enquanto as ruins serão às saturadas e trans."
+
+  utter_planejar_dieta:
+    - text: "Inclua proteínas magras, carboidratos integrais, vegetais variados e gorduras boas (como azeite e abacate). Evite ultraprocessados."
+    - text: "Descubra seu gasto calórico e defina o nível de calorias que devem consumidas durante o dia. Separando em suas refeições os macro-nutrinentes necessários visando seu objetivo."
+    - text: "Se você quer emagrecer. come pouco, se quer crescer, come mais."
+
+  utter_alimentos_mais_ricos_vitaminas:
+    - text: "Vegetais de folhas verdes (ex.: espinafre) são ricos em ferro, enquanto frutas cítricas (laranja, limão) fornecem vitamina C. As oleaginosas são ótimas fontes de magnésio."
+    - text: "Frutas num geral e vegetais de folhas verdes estão no grupo de alimentos mais saudáveis disponíveis hoje em dia!"
+    - text: "Tudo aquilo que você achava ruim quando criança."
+
+  utter_trocar_acucar:
+    - text: "Substitua por opções naturais, como mel, açúcar de coco ou adoçantes à base de estévia."
+    - text: "Se possível, apenas remova o açúcar da sua dieta, mas caso necessário, procure substituir por opções naturais como mel, ou adoçantes."
+    - text: "Troque por adoçante."
+
+  #Dieta Específica - respostas
+  utter_melhor_suplemento:
+    - text: "O whey protein é um dos mais eficazes por sua alta concentração de proteínas e rápida absorção. A creatina também é excelente para aumentar força e volume muscular."
+    - text: "O whey protein é a opção mais completa para suplementação, tendo uma alta concentração de proteínas e rápida absorção!"
+    - text: "O whey protein sabor coockies and cream da Growth Suplements"
+    - text: "O whey protein e a creatina são os suplementos mais populares entre os praticantes do esporte de fisiculturismo."
+  
+  utter_tomar_whey_todo_dia:
+    - text: "Sim, desde que ele esteja dentro da sua necessidade diária de proteínas."
+    - text: "Sim, é permitido, dessa forma, você consegue aumentar seu consumo de proteínas de maneira fácil e rápido."
+    - text: "Sim, pode sim!"
+
+  utter_creatina_faz_mal:
+    - text: "Não, quando consumida na dose recomendada (3 a 5g por dia), é segura para a maioria das pessoas."
+    - text: "Tudo em excesso faz mal."
+    - text: "Quando consumida nas quantidades certas, a creatina não causará nenhum efeito maléfico para o usuário. Apenas quando consumido em excesso."
+
+  utter_quando_tomar_bcaa:
+    - text: "Pode ser consumido antes, durante ou depois do treino para ajudar na recuperação muscular e reduzir a fadiga."
+    - text: "O BCAA pode ser consumido à qualquer momento do dia. Auxiliando na fadiga pós-treino."
+    - text: "Na hora que for mais cômodo ao consumidor."
+
+  utter_birrr:
+    - text: "BIRRR"
+    - text: "BIR?"
+    - text: "Aqui é BODY BUILDER!"

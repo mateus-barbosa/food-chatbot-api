@@ -76,3 +76,27 @@ stories:
     - action: utter_alimento_termogenicos
     - intent: pao_para_emagrecer
     - action: utter_pao_para_emagrecer
+
+- story: responder sobre alimentos saudáveis
+  steps:
+    - intent: diferenca_gordura
+    - action: utter_diferenca_gordura
+    - intent: alimentos_mais_saudaveis
+    - action: utter_alimentos_mais_saudaveis
+    - intent: planejar_dieta
+    - action: utter_planejar_dieta
+    - intent: alimentos_mais_ricos_vitaminas
+    - action: utter_alimentos_mais_ricos_vitaminas
+    - intent: trocar_acucar
+    - action: utter_trocar_acucar
+
+- story: responder sobre suplementos
+  steps:
+    - intent: melhor_suplemento
+    - action: utter_melhor_suplemento
+    - intent: tomar_whey_todo_dia
+    - action: utter_tomar_whey_todo_dia
+    - intent: creatina_faz_mal
+    - action: utter_creatina_faz_mal
+    - intent: quando_tomar_bcaa
+    - action: utter_quando_tomar_bcaa
