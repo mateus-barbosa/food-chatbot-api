@@ -61,6 +61,7 @@ rules:
     - intent: perguntar_idade
     - action: utter_perguntar_idade
 
+#Ganho de Massa
 - rule: responder sobre ganho de massa
   steps: 
     - intent: ovo_cru
@@ -86,6 +87,7 @@ rules:
     - intent: bons_suplementos_ganho_massa
     - action: utter_bons_suplementos_ganho_massa
 
+#Perda de peso
 - rule: responder pergunta sobre emagrecer rapidamente
   steps: 
     - intent: emagrecer_rapido
