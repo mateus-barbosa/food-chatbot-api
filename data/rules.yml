@@ -61,7 +61,27 @@ rules:
     - intent: perguntar_idade
     - action: utter_perguntar_idade
 
-- rule: responder pergunta sobre proteina
+- rule: responder sobre ganho de massa
+  steps: 
+    - intent: ovo_cru
+    - action: utter_ovo_cru
+
+- rule: responder sobre alimento de ganho de massa
   steps:
-    - intent: perguntar_proteina
-    - action: utter_perguntar_proteina
+    - intent: melhor_alimento_ganho_massa
+    - action: utter_melhor_alimento_ganho_massa
+
+- rule: responder pergunta sobre proteinas
+  steps:
+    - intent: proteinas_hipertrofia
+    - action: utter_proteinas_hipertrofia
+
+- rule: responder pergunta sobre o que comer antes do treino
+  steps:
+    - intent: oque_comer_antes_treino
+    - action: utter_oque_comer_antes_treino
+
+- rule: responder pergunta sobre bons suplementoss
+  steps:
+    - intent: bons_suplementos_ganho_massa
+    - action: utter_bons_suplementos_ganho_massa

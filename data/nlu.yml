@@ -123,59 +123,112 @@ nlu:
 - intent: ovo_cru
   examples: |
     - Comer ovo cru ajuda no ganho de massa?
+    - Comer ovo cru ajuda no ganho de musculo?
+    - Comer ovo cru ajuda a crescer?
+    - Se eu comer ovo cru, eu ganho mais musculo?
+    - Ovo cru
   
 - intent: melhor_alimento_ganho_massa
   examples: |
-  - Qual o melhor alimento para ganho de massa?
+    - Qual o melhor alimento para ganho de massa?
+    - Quais os melhores alimentos para ganhar massa?
+    - Quais as melhores comidas para crescer?
+    - As melhores comidas para crescer
   
 - intent: proteinas_hipertrofia
   examples: |
     - Quais proteínas ajudam na hipertrofia?
+    - Quais proteínas ajudam para crescer?
+    - Proteinas para crescer
     
 - intent: oque_comer_antes_treino
   examples: |
     - O que comer antes do treino para ganhar musculos?
+    - O que é bom de comer antes de ir treinar para crescer?
+    - O que preciso comer antes de treinar?
+    - O que é bom para consumir de pré-treino?
 
 - intent: bons_suplementos_ganho_massa
   examples: |
-  - Quais suplemnentos são bons para ganho de massa?
+    - Quais suplementos são bons para ganho de massa?
+    - Que suplementos é bom para crescer?
+    - Qual o melhor suplemento?
 
 #Perda de peso
 - intent: emagracer_rapido
   examples: |
     - Qual a melhor forma para emagrecer rápido?
+    - De que jeito eu posso perder peso mais rápido?
+    - Como posso perder peso?
+    - Melhor jeito de ficar seco
 
 - intent: alimentos_ajudam_emagrecer
   examples: |
     - Quais alimentos ajudam a emagrecer?
+    - Que alimentos me ajudam a perder peso?
+    - O que preciso comer para emagrecer?
+    - Comidas que me ajudam a perder peso
 
 - intent: evitar_para_perder_peso
   examples: |
-    - O que evitar para perder peso rapidamente?
+    - O que evitar de comer para perder peso rapidamente?
+    - O que não comer para emagrecer?
+    - O que tenho que evitar para emagrecer rápido?
 
 - intent: comer_noite_engorda
   examples: |
     - Comer à noite engorda?
+    - Lanchinho da noite faz mal?
+    - Posso comer algo antes de me deitar?
 
 - intent: alimento_termogenicos
   examples: |
     - Quais alimentos são termogênicos?
+    - O que são alimentos termogênicos?
+    - Termogênicos
 
 - intent: pao_para_emagracer
   examples: | 
     - Posso comer pão se quiser emagrecer?
+    - Posso colocar pão na minha dieta?
+    - Pão emagrece?
 
-- intetn: alimentos_saudaveis
+#Alimentos saudáveis
+- intent: diferenca_gordura
+  examples: |
+    - Qual a diferença entre gordura boa e ruim?
+    - Qual a diferença de gordura?
+
+- intent: alimentos_mais_saudaveis
   examples: |
     - Quais são os alimentos mais saudáveis?
-    - Como planejar uma dieta saudável para o dia a dia?
-    - Quais alimentos são ricos em vitaminas e minerais?
-    - Como substituir o açúcar  no dia a dia?
-    - Qual a diferença entre gordura boa e ruim?
 
-- intent: dieta_especifica
+- intent: planejar_dieta
+  examples: |
+    - Como planejar uma dieta saudável para o dia a dia?
+
+- intent: alimentos_mais_ricos_vitaminas
+  examples: |
+    - Quais alimentos são ricos em vitaminas e minerais?
+
+- intent: trocar_acucar
+  examples: |
+    - Como substituir o açúcar  no dia a dia?
+    
+
+#Dieta específica
+- intent: dieta_cetogenica
   examples: |
     - O que é a dieta cetogênica?
+
+- intent: dieta_vegana
+  examples: |
     - Quais alimentos são permitidos na dieta vegana?
+
+- intent: dieta_para_diabetes
+  examples: |
     - Existe uma dieta para quem tem diabetes?
+
+- intent: dieta_vegetariana_musculos
+  examples: |
     - O que incluir em uma dieta vegetariana para ganhar musculos?

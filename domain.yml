@@ -13,6 +13,11 @@ intents:
   - perguntar_nome
   - perguntar_idade
   - perguntar_proteina
+  - ovo_cru
+  - melhor_alimento_ganho_massa
+  - proteinas_hipertrofia
+  - oque_comer_antes_treino
+  - bons_suplementos_ganho_massa
 
 responses:
   utter_saudacao:
@@ -73,13 +78,62 @@ responses:
     - text: "Idade? Digamos que eu sou bem experiente!"
     - text: "Eu não tenho uma idade específica, mas estou sempre aprendendo coisas novas para ajudar você."
 
-  utter_perguntar_proteina:
-    - text: "A proteina mais barata é o Ovo, podendo ser comprado em grandes quantidades. "
+  #Ganho de Massa - Respostas Generécias
+  utter_melhor_alimento_ganho_massa:
+    - text: "Alimentos ricos em proteínas são fundamentais, como frango, ovos, peixes (salmão, atum), carne magra e tofu. Carboidratos complexos, como batata-doce e arroz integral, também ajudam a fornecer energia."
+    - text: "Alimtentos com boas quantidades de proteínas serão essenciais na sua dieta para ganho de massa! Diversificar os carboidratos também te ajudará muito para manter sua energia!"
+    - text: "BIRRR"
+  
+  utter_oque_comer_antes_treino:
+    - text: "Antes do treino, é ideal consumir carboidratos complexos (ex.: aveia ou pão integral) e uma fonte de proteína leve (ex.: ovos ou iogurte natural)."
+    - text: "De pré-treino, uma mistura de farinha de beterraba com aveia e farinha de arroz seria bem interessante, pois te dará bastante energia como ter o seu melhor treino."
+    - text: "Toma uma dose de HAZE e dois tadala e fé."
+    - text: "BIRRR"
+  
+  utter_bons_suplementos_ganho_massa:
+    - text: "Os mais indicados são whey protein, creatina, BCAA e caseína, dependendo das suas necessidades e rotina de treinos."
+    - text: "Os suplementos mais indicados para um público geral serão o whey protein e a creatina, por poderem ser utilizados em todos os níveis de treino, desde de o mais iniciante até o mais avançados."
+    - text: "O melhor whey é o da GROWTH! Único whey de 1Kg do mercado!"
     - text: "BIRRR"
 
-  utter_ganhar_musculos:
-    - text: "Alimentos ricos em proteínas são fundamentais, como frango, ovos, peixes (salmão, atum), carne magra e tofu. Carboidratos complexos, como batata-doce e arroz integral, também ajudam a fornecer energia."
-    - text: "Proteínas de alta qualidade, como as presentes no frango, peixe, ovos, leite e suplementos como whey protein, são excelentes para promover a hipertrofia."
-    - text: "Antes do treino, é ideal consumir carboidratos complexos (ex.: aveia ou pão integral) e uma fonte de proteína leve (ex.: ovos ou iogurte natural)."
-    - text: "Os mais indicados são whey protein, creatina, BCAA e caseína, dependendo das suas necessidades e rotina de treinos."
+  utter_proteinas_hipertrofia:
+    - text: "Proteínas de alta qualidade, como as presentes no frango, peixe, ovos, leite e suplementos como whey protein, são excelentes para promover a hipertrofia."    
+    - text: "Boas proteínas serão das fontes que possuem maior quantidade a cada 100g e que são baratas, como frango, ovo e até mesmo peixe."
+    - text: "BIRRR"
+
+  utter_ovo_cru:
     - text: "Ovo cru pode trazer riscos à saúde por contaminação. Cozido ou preparado adequadamente, ele oferece proteínas de qualidade para hipertrofia."
+    - text: "Não só não ajuda, como piora."
+    - text: "Não, além de não trazer benefícios notáveis, ainda pode de dar salmonella."
+    - text: "BIRRR"
+
+  #Perda de peso - respostas
+  utter_emagrecer_rapido:
+    - text: "Ter uma boa dieta e realizar exercícios físicos regularmente"
+    - text: "Seguindo uma dieta com uma boa quantidade de fibras para aumentar sua saciedade, sem ter muitas calorias, junto à exercícios físicos"
+    - text: "BIRRR"
+  
+  utter_alimentos_ajudam_emagrecer:
+    - text: "Alimentos ricos em fibras, tipo aveia, chia e vegetais verdes ajudam a aumentar a saciedade!"
+    - text: "Frutas com baixo índice glicêmico, como maçã e morango são ótimas opções para ajudar no emagrecimento."
+    - text: "BIRRR"
+
+  utter_evitar_para_perder_peso:
+    - text: "Evite alimentos ultra-processados, bebidas açucaradas, frituras e carboidratos refinados, como pão branco e doces."
+    - text: "Evite alimentos que, mesmo em poucas quantidades, apresentam níveis calóricos muito altos, como castanhas."
+    - text: "BIRRR"
+
+  utter_comer_noite_engorda:
+    - text: "Não é o horário que importa, mas sim o total de calorias consumidas no dia. No entanto, evite refeições pesadas antes de dormir."
+    - text: "Não vai te engordar, mas vai fazer você dormir meio mal."
+    - text: "BIRRR"
+
+  utter_alimento_termogenicos:
+    - text: "Gengibre, pimenta, chá-verde e canela são alguns exemplos de alimentos termogênicos e podem ajudar a acelerar o metabolismo."
+    - text: "Alimentos termogênicos são aqueles que aceleram nosso metabolismo, sendo assim, aquelas comidas que te dão uma sensação de 'calor' serão alguns exemplos, tipo canela, pimenta e gengibre."
+    - text: "BIRRR"
+
+  utter_pao_para_emagrecer:
+    - text: "Sim, mas prefira versões integrais e consuma com moderação."
+    - text: "Sim, mas deve ingerir na quantidade certa, sem ultrapassar seu consumo de calorias!"
+    - text: "BIRRR"

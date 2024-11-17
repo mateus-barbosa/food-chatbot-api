@@ -48,3 +48,16 @@ stories:
     - action: utter_agradecimento
     - intent: despedida
     - action: utter_despedida
+
+- story: responder sobre ganho de massa
+  steps: 
+    - intent: ovo_cru
+    - action: utter_ovo_cru
+    - intent: melhor_alimento_ganho_massa
+    - action: utter_melhor_alimento_ganho_massa
+    - intent: proteinas_hipertrofia
+    - action: utter_proteinas_hipertrofia
+    - intent: oque_comer_antes_treino
+    - action: utter_oque_comer_antes_treino
+    - intent: bons_suplementos_ganho_massa
+    - action: utter_bons_suplementos_ganho_massa
